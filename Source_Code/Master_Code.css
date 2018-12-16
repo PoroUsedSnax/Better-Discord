@@ -4554,19 +4554,17 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
   border: 1px Solid var(--M-Colour);
 }
 
-.menu-Sp6bN1, .item-1GzJrl{
+.menu-Sp6bN1, .item-1GzJrl {
   color:var(--M-Colour);
   background:var(--Background-Colour);
-  padding: 0px 0px;
+  border: 2px solid var(--M-Colour);
 }
 
-.item-1GzJrl:hover {
-  color:var(--Main-Colour);
-  background:var(--Background-Colour);
-  padding: 0px 0px;
+.item-1GzJrl, .item-1GzJrl:hover {
+  padding: 6px 9px !important;
 }
 
-.alt-2vq4VR .item-1GzJrl .helper-3X2gjI, .separator-2zcjq8{
+.alt-2vq4VR .item-1GzJrl .helper-3X2gjI {
   display:none;
 }
 
