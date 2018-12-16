@@ -4554,6 +4554,11 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
   border: 1px Solid var(--M-Colour);
 }
 
+.popout-3sVMXz {
+  min-height: 96px!important;
+  min-width: 216px!important;
+}
+
 .menu-Sp6bN1, .item-1GzJrl {
   color:var(--M-Colour);
   background:var(--Background-Colour);
