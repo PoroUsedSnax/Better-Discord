@@ -4561,7 +4561,7 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
 
 .menu-Sp6bN1 {
   color:var(--M-Colour);
-  background:var(--Background-Colour);
+  background:var(--Background-Colour) !important;
   border: 2px solid var(--M-Colour);
 }
 
