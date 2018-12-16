@@ -6285,10 +6285,6 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
   color: var(--Main-Colour);
 }
 
-.menu-Sp6bN1{
-  width: 100%;
-}
-
 .popout{
   box-shadow: none;
 }
@@ -6484,10 +6480,6 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 
 .theme-dark .item-1GzJrl.invite-YM1l0n:hover,.theme-dark .item-1GzJrl:hover {
   color: var(--Main-Colour) ;
-}
-
-.menu-Sp6bN1 {
-  width: calc(100% + 10px) !important;
 }
 
 .popout-3sVMXz .popoutBottom-U6AdMj {
@@ -7122,10 +7114,6 @@ color: var(--Main-Colour)!important;
 
 .theme-dark .alt-3btY0e .helper-2c73HK{
   display: none;
-}
-
-.menu-Sp6bN1 {
-  width: calc(100% + 20px) !important;
 }
 
 .alt-3btY0e .item-1GzJrl .statusIconText-3b4TkH{
