@@ -11,7 +11,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css);
 @import url(https://cmpdc.github.io/bdtf/themes/FullScreenStatusPicker/fullScreenStatusPicker.theme.css);
 :root{
-  --Update-Text: " Update #224 ";
+  --Update-Text: " Update #230 ";
   --Settings-Dock-Colour: var(--Main-Colour);
 }
 
@@ -25,7 +25,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
   background:transparent;
   border:1px solid var(--Main-Colour);
   border-radius: 5px;
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.New Donator PoroUsedSnow#1337.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Updated Settings Tab List.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
   text-align: center;
   animation: CLog 10s infinite linear;
   z-index: 9997;
@@ -4123,7 +4123,7 @@ div.form-inner, .form-actions {
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guildSeparator-1X4GQ1 {
   position: relative;
-  width: 80%!important;
+  width: 95%!important;
   margin-top: 10px;
 }
 
@@ -4559,9 +4559,9 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
   min-width: 216px!important;
 }
 
-.menu-Sp6bN1 {
+.menu-Sp6bN1 /*, .item-1GzJrl */{
   color:var(--M-Colour);
-  background:var(--Background-Colour) !important;
+  background:var(--Background-Colour);
   border: 2px solid var(--M-Colour);
 }
 
@@ -4569,7 +4569,7 @@ div.option-popout.small-popout-box, div.context-menu, .context-menu .context-men
   padding: 6px 9px !important;
 }
 
-.alt-2vq4VR .item-1GzJrl .helper-3X2gjI {
+.alt-2vq4VR .item-1GzJrl .helper-3X2gjI/*, .separator-2zcjq8 */{
   display:none;
 }
 
@@ -7412,7 +7412,7 @@ color: var(--Main-Colour)!important;
   animation: rainbow 3s infinite linear;
 }
 
-.theme-dark .timestampCozy-2hLAPV{
+.theme-dark .timestampCozy-2hLAPV,.theme-dark .timestamp-1E3uAL{
   color: var(--Timestamp-Colour);
 }
 
@@ -7440,7 +7440,7 @@ color: var(--Main-Colour)!important;
 
 .headerCozy-2N9HOL > div > div{
   border-radius: 4px;
-  border: 3px solid var(--M-Colour);
+  border: 3px solid var(--Main-Colour);
 }
 
 .large-3ChYtB {
@@ -7636,10 +7636,6 @@ color: var(--Main-Colour)!important;
 
 .bda-dark .emoji-picker .search-bar input, .bda-dark .emojiPicker-3m1S-j .search-bar input{
   color: var(--Main-Colour);
-}
-
-.theme-dark .timestamp-1E3uAL{
-  color: var(--M-Colour);
 }
 
 .typing-2GQL18 > span.ellipsis-19qdx6 > span{
@@ -9289,4 +9285,145 @@ border: 0.5px solid var(--Main-Colour) !important;
 
 .theme-dark .searchBar-1MOL6S .input-3Xdcic{
   color: var(--Main-Colour);
+}
+
+.ripple-16ZT2p:nth-of-type(1) {
+  background-color: var(--Main-Colour)!important;
+  box-shadow: 1px 1px 50px var(--Main-Colour);
+  border-radius: 0%;
+}
+
+.ripple-16ZT2p:nth-of-type(2) {
+  background-color: var(--Main-Colour)!important;
+  box-shadow: 1px 1px 50px var(--M-Colour);
+  border-radius: 0%;
+}
+
+.ripple-16ZT2p:nth-of-type(3) {
+  background-color: var(--Main-Colour)!important;
+  box-shadow: 1px 1px 50px var(--Main-Colour);
+  border-radius: 0%;
+}
+
+.theme-dark .item-1GzJrl:hover{
+  background-color: var(--Background-Colour);
+}
+
+.theme-dark .menu-Sp6bN1{
+  background-color: var(--Background-Colour);
+  box-shadow: none;
+}
+
+.theme-dark .separator-2zcjq8,.theme-dark .itemGroup-1tL0uz {
+  border-color: transparent;
+}
+[style="background-color: rgba(32, 34, 37, 0.9);"]{
+  background-color: transparent!important;
+}
+
+.theme-dark .topPill-30KHOu .itemSelected-1qLhcL {
+  background-color: var(--S-Colour);
+  color: var(--Main-Colour);
+  border: 1px solid var(--Main-Colour);
+}
+
+.notSelected-1N1G5p:hover{
+  background: var(--Background-Colour)!important;
+  color: var(--Main-Colour);
+  border: 1px solid var(--Main-Colour);
+}
+
+.notSelected-1N1G5p{
+  background: var(--S-Colour);
+  color: var(--M-Colour);
+  border: 1px solid var(--M-Colour);
+}
+
+.theme-dark .directoryHeroPrice-1_MqzA, .theme-dark .directoryHeroPricePremium-tR0nU8,.theme-dark .description-2XMjXn,.theme-dark .description-3rB3Rp,.theme-dark .redemptionHeader-3FSfP7,.theme-dark .emptyStateHeader-1ADtcL, .theme-dark .header-2HrZI4,.theme-dark .inputPrompt-1vnYnD,.theme-dark .nameCellText-Ubz8FY,.theme-dark .title-i-qCkH,.theme-dark .header-1fmANI{
+  color: var(--Main-Colour);
+}
+
+.theme-dark .tagline-1VBVLz,.theme-dark .tagline-2iew42,.theme-dark .originalAmount-3RtnBh,.theme-dark .emptyStateSubtext-2njjqg,.theme-dark .progressCellText-3avmMz,.theme-dark .rate-1Gat8e,.theme-dark .content-3FEARf,.theme-dark .openDescription-2XUOH3,.theme-dark .collapsedTimestamp-2gjDIM, .theme-dark .openTimestamp-sTgPmn,.theme-dark .blurb-143skT, .theme-dark .storeTerms-3G4Jo7, .theme-dark .subtext-2QfZHv{
+  color: var(--M-Colour);
+}
+
+.theme-dark .applicationTile-1Goy1W,.theme-dark .description-3rB3Rp,.theme-dark .item-2yFVoY{
+  background: linear-gradient(180deg,transparent,var(--S-Colour) 45%,var(--Background-Colour));
+}
+
+.salePercentage-TXZz3H{
+  background: var(--Background-Colour);
+  color: var(--Main-Colour);
+  border: 1px solid var(--Main-Colour);
+}
+
+.theme-dark .root-1BQpZw{
+  background: transparent;
+}
+
+.theme-dark .emptyStateImage-2eMp68{
+  display:none;
+}
+
+.theme-dark .row-2X_kYI {
+  border-bottom-color: var(--M-Colour);
+}
+
+.theme-dark .gameUpdates-2GPqBU {
+  background-color: var(--S-Colour);
+}
+
+.theme-dark .entitledHeader-3LRNDT, .theme-light .entitledHeader-3LRNDT{
+  background: var(--Background-Colour);
+}
+
+.theme-dark .spoilerContainer-331r0R:hover .spoilerWarning-2aAZq1 {
+  background-color: var(--Background-Colour);
+  color: var(--Main-Colour);
+}
+
+.theme-dark .spoilerWarning-2aAZq1{
+  background-color: var(--S-Colour);
+  color: var(--M-Colour);
+}
+
+.theme-dark .spoilerText-3p6IlD.hidden-HHr2R9:hover {
+  background-color: var(--Background-Colour);
+  border: 1px solid var(--Main-Colour);
+}
+
+.theme-dark .spoilerText-3p6IlD.hidden-HHr2R9 {
+  background-color: var(--S-Colour);
+  border: 1px solid var(--M-Colour);
+}
+
+.theme-dark .spoilerText-3p6IlD {
+  background-color: var(--S-Colour);
+  border: 1px solid var(--M-Colour);
+}
+
+.theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover {
+  background: var(--Background-Colour)!important;
+  color: var(--Main-Colour);
+  border: 1px solid var(--Main-Colour);
+}
+
+.theme-dark #bd-settings-sidebar .ui-tab-bar-item {
+  background: var(--S-Colour)!important;
+  color: var(--M-Colour);
+  border: 1px solid var(--M-Colour);
+}
+
+#bd-settings-sidebar .ui-tab-bar-item.selected,.side-8zPYf6 .itemSelected-1qLhcL {
+  color: var(--Main-Colour) !important;
+  background: linear-gradient(to right, transparent, var(--Background-Colour), var(--Notification-Colour)) !important;
+  border: 1px solid var(--M-Colour);
+}
+
+.theme-dark .separator-gCa7yv,#bd-settings-sidebar .ui-tab-bar-separator{
+  display: none;
+}
+
+#bd-settings-sidebar .ui-tab-bar-item:not(.role-3wi9Tf) {
+  color: var(--Main-Colour)!important;
 }
